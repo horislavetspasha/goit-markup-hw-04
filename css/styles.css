@@ -209,7 +209,7 @@ body {
 
 .icon-auth {
   fill: currentColor;
-  margin-right: 5px;
+  margin-right: 10px;
  }
 
 /* .icon-auth:hover,
@@ -220,11 +220,11 @@ body {
 
 /* Hero */
 
-.overlay {
+.hero {
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 200px 0;
   background-image: linear-gradient( 
     to right,
     rgba(47, 48, 58, 0.4),
@@ -234,12 +234,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero {
   background-color: var(--first-background-color);
   text-align: center;
-  padding: 0;
+
 }
 
 .hero-title {
@@ -247,7 +244,7 @@ body {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -410,6 +407,7 @@ margin-right: 30px;
 }
 
 /* Clients */
+
 .clients {
   background-color: var(--primary-white-color);
 }
@@ -436,6 +434,7 @@ margin-right: 30px;
   display: flex; 
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   color: var(--sprite-bcg-color);
@@ -446,7 +445,7 @@ margin-right: 30px;
 
 .clients-icon {
   width: 106px;
-  /* height: 60px; */
+  height: 60px;
   fill: currentColor;
   }
 
@@ -568,12 +567,10 @@ margin-right: 30px;
 
 /* footer-social */
 .footer > .container {
+  align-items: baseline;
   display: flex;
 }
 
-.footer-social {
-  padding-top: 12px;
-}
 
 .footer-social-title {
   font-family: Roboto;
